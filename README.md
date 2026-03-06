@@ -30,3 +30,19 @@ Severidade: Crítica. Pois mesmo usando https, expõe as credenciais utilizadas 
 Prioridade: Alta. Pois afeta diretamente dados sensíveis do usuário, podendo acarretar em outros problemas, tais como vazamento de credenciais e a reputação do sistemas e/ou da empresa.
 
 ---------------------------------------------------------------------------------------------------------------------------
+
+Título: Erro de Login
+
+Descrição: Após a criação de uma conta, ao se efetuar o login no sistema é exibida a mensagem "erro inesperado".
+Fica evidenciado visualmente que entramos de fato no sistema, pela mensagem de "Login realizado com sucesso" e "Você foi autenticado e já pode utilizar o sistema". Uma vez logado, não é visível para o usuário as funcionalidades do sistema, restando somente como interação botão "Sair da Conta" e nada mais.
+
+Reproduzindo o erro: Criar uma conta obedecendo os critérios para senha. Efetuar o login utilizando e-mail e senha previamente criados e observar o erro. (ver vídeo)
+
+Resultado Atual: Efetuado o login, é exibida a mensagem de "erro inesperado" e não existe mais nenhuma funcionalidade disponível, a não ser a de sair da conta.
+
+Resultado Esperado: É esperado que, ao se entrar no sistema o usuário consiga utilizar todas funcionalidades disponíveis para aquele perfil e que não ocorra mensagem de erro.
+
+Severidade: Alta, pois mesmo o usuário entrando no sistema, ele não consegue utilizar nenhuma funcionalidade, exceto o botão de Sair da Conta.
+
+Prioridade: Alta, pois este erro impede o uso da aplicação e precisa ser corrigido imediatamente.
+
