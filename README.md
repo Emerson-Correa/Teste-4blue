@@ -13,3 +13,20 @@ Severidade: Alta, pois compromete a integridade e a qualidade dos dados do siste
 
 Prioridade: Alta, pois ocorre em fluxo essência do sistema(neste caso, a criação de conta), compromete a confiabilidade da base de usuários, numerosos cadastros inválidos, etc.
 
+--------------------------------------------------------------------------------------------------------------------------
+
+Título: Exibição de informações sensíveis no console do DevTools.
+
+Descrição: Uma vez realizado o login, ao se utilizar a ferramenta do DevTools é possível visualizar as credenciais utilizadas.
+
+Reproduzindo o erro: Logar no sistema, abrir a ferramenta DevTools(F12), clicar em Console e observar a exibição das credenciais nas linhas abaixo. (ver vídeo)
+
+Resultado Atual: No uso do console é exibida as credenciais utilizadas pelo usuário.
+
+Resultado Esperado: Que não sejam exibidas as credenciais do usuário no Console.
+
+Severidade: Crítica. Pois mesmo usando https, expõe as credenciais utilizadas a qualquer pessoa que tenha acesso ao computador. É uma situação que viola princípios básicos de segurança da informação.
+
+Prioridade: Alta. Pois afeta diretamente dados sensíveis do usuário, podendo acarretar em outros problemas, tais como vazamento de credenciais e a reputação do sistemas e/ou da empresa.
+
+---------------------------------------------------------------------------------------------------------------------------
