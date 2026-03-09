@@ -1,6 +1,6 @@
-##Bugs Encontrados
+## Bugs Encontrados
 
-###Bug 1
+### Bug 1
 
 **Título:** Sistema aceita a criação de conta sem o preenchimento dos campos.
 
@@ -17,7 +17,7 @@
 **Prioridade:** Alta, pois ocorre em fluxo essência do sistema(neste caso, a criação de conta), compromete a confiabilidade da base de usuários, numerosos cadastros inválidos, etc.
 
 --------------------------------------------------------------------------------------------------------------------------
-###Bug 2
+### Bug 2
 
 **Título:** Exibição de informações sensíveis no console do DevTools.
 
@@ -34,7 +34,7 @@
 **Prioridade:** Alta. Pois afeta diretamente dados sensíveis do usuário, podendo acarretar em outros problemas, tais como vazamento de credenciais e a reputação do sistemas e/ou da empresa.
 
 ---------------------------------------------------------------------------------------------------------------------------
-###Bug 3
+### Bug 3
 
 **Título:** Erro de Login
 
@@ -52,7 +52,7 @@ Fica evidenciado visualmente que entramos de fato no sistema, pela mensagem de "
 **Prioridade:** Alta, pois este erro impede o uso da aplicação e precisa ser corrigido imediatamente.
 
 ------------------------------------------------------------------------------------------------------------------------------
-###Bug 4
+### Bug 4
 
 **Título:** Vazamento visual no layout
 
@@ -70,7 +70,7 @@ Fica evidenciado visualmente que entramos de fato no sistema, pela mensagem de "
 
 -------------------------------------------------------------------------------------------------------------------------------
 
-###Bugs que devem ter prioridade de correção:
+### Bugs que devem ter prioridade de correção:
 
 **Considerações:** 
 
