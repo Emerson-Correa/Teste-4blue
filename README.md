@@ -73,8 +73,8 @@ Fica evidenciado visualmente que entramos de fato no sistema, pela mensagem de "
 ### Bugs que devem ter prioridade de correção:
 
 **Considerações:** 
-
 Eu corrigiria primeiramente aquele que apresenta Severidade Crítica, pois este expõe os dados sensíveis do usuário.
 Num segundo momento, eu faria correção no bug que aceita a criação de conta sem o preenchimento do formulário, pois interfere diretamente nos dados e nas funcionalidades que dependem deste dados, perdendo a confiabilidade do sistema e prejudicando a empresa e o seus clientes.
 
-Sugestões de Melhoria: na tela de criação de conta, tornar visível a obrigatoriedade de preencher os campos, bem como a validação caso os dados inseridos já possuam cadastro, sinalizar a quem estiver preenchendo caso este evento ocorra. No caso do erro já citado "**Erro inesperado**", acho interessante(no caso de um erro, de fato) dizer qual o erro em questão, e não simplesmente dizer que há um erro inesperado.
+**Sugestões de Melhoria:**
+Na tela de criação de conta, tornar visível a obrigatoriedade de preencher os campos, bem como a validação caso os dados inseridos já possuam cadastro, sinalizar a quem estiver preenchendo caso este evento ocorra. No caso do erro já citado "**Erro inesperado**", acho interessante(no caso de um erro, de fato) dizer qual o erro em questão, e não simplesmente dizer que há um erro inesperado.
