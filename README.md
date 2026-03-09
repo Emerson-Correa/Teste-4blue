@@ -38,7 +38,7 @@
 
 **Título:** Erro de Login
 
-**Descrição:** Após a criação de uma conta, ao se efetuar o login no sistema é exibida a mensagem "erro inesperado".
+**Descrição:** Após a criação de uma conta, ao se efetuar o login no sistema é exibida a mensagem "**Erro inesperado**".
 Fica evidenciado visualmente que entramos de fato no sistema, pela mensagem de "**Login realizado com sucesso**" e "**Você foi autenticado e já pode utilizar o sistema**". Uma vez logado, não é visível para o usuário as funcionalidades do sistema, restando somente como interação botão "**Sair da Conta**" e nada mais.
 
 **Reproduzindo o erro:** Criar uma conta obedecendo os critérios para senha. Efetuar o login utilizando e-mail e senha previamente criados e observar o erro. (ver o vídeo: Erro de Login.mp4)
@@ -68,13 +68,13 @@ Fica evidenciado visualmente que entramos de fato no sistema, pela mensagem de "
 
 **Prioridade:** Baixa, não sendo um tipo de vazamento que expõe dados sensíveis, não oferecendo impacto de segurança e privacidade.
 
-----------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
-##Bugs que devem ter prioridade de correção:
+###Bugs que devem ter prioridade de correção:
 
 **Considerações:** 
+
 Eu corrigiria primeiramente aquele que apresenta Severidade Crítica, pois este expõe os dados sensíveis do usuário.
 Num segundo momento, eu faria correção no bug que aceita a criação de conta sem o preenchimento do formulário, pois interfere diretamente nos dados e nas funcionalidades que dependem deste dados, perdendo a confiabilidade do sistema e prejudicando a empresa e o seus clientes.
 
-Sugestões de Melhoria: na tela de criação de conta, tornar visível a obrigatoriedade de preencher os campos, bem como a validação caso os dados inseridos já possuam cadastro, sinalizar a quem estiver preenchendo caso este evento ocorra.
-
+Sugestões de Melhoria: na tela de criação de conta, tornar visível a obrigatoriedade de preencher os campos, bem como a validação caso os dados inseridos já possuam cadastro, sinalizar a quem estiver preenchendo caso este evento ocorra. No caso do erro já citado "**Erro inesperado**", acho interessante(no caso de um erro, de fato) dizer qual o erro em questão, e não simplesmente dizer que há um erro inesperado.
